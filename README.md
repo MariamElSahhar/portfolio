@@ -1,4 +1,4 @@
-### Work in Progress 🔧
+### 🔧 Work in Progress 🔧
 # ✨ Mariam's Portfolio Website ✨
 
 ## 👋🏼 Hi, I'm Mariam
