@@ -12,14 +12,20 @@ nav {
         justify-content: flex-end;
         margin-right: 8rem;
         li {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
             font-size: 1.75rem;
             background: none;
             border-radius: $border-radius;
             &:hover {
                 cursor: pointer;
             }
-            svg {
-                padding: 1rem;
+            svg, a {
+                padding: 1rem 0.5rem;
+                font-weight: 400;
+                text-decoration: none;
                 background: none;
                 color: $teal;
                 transition: color $transition;

@@ -14,6 +14,7 @@ function Navbar() {
             <li><a href="https://github.com/MariamElSahhar"><FontAwesomeIcon icon={faGithub} /></a></li>
             <li><a href="https://www.linkedin.com/in/mariam-elsahhar/"><FontAwesomeIcon icon={faLinkedin} /></a></li>
             <li><a href='mailto:mariam.elsahhar@nyu.edu'><FontAwesomeIcon icon={faEnvelope} /></a></li>
+            <li><a href='' download=''>CV</a></li>
         </ul>
     </nav>
   )
