@@ -1,0 +1,32 @@
+@import "common";
+
+nav {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background: none;
+    ul {
+        background: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        margin-right: 8rem;
+        li {
+            font-size: 1.75rem;
+            background: none;
+            border-radius: $border-radius;
+            &:hover {
+                cursor: pointer;
+            }
+            svg {
+                padding: 1rem;
+                background: none;
+                color: $teal;
+                transition: color $transition;
+                &:hover {
+                    color: $dull-green;
+                }
+            }
+        }
+    }
+}

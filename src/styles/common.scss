@@ -1,0 +1,47 @@
+$light-pink: #FFECF4;
+$pink: #ffd1e0;
+$dark-pink: #ffa7c4;
+$sky: #c9ebff;
+$light-sky: #e1f1fb;
+$matcha: #c8fcd4;
+$light-matcha: #e4fdea;
+$sun: #ffe8bf;
+$light-sun: #fef5e6;
+$dull-green: #88c0ac;
+$teal: #007373;
+$background: #fefefe;
+$font-color: #333333;
+$border-radius: 5px;
+$transition: 0.3s ease;
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: $background;
+}
+
+p, h1, h2, h3, h4, h5, h6, li {
+    color: $font-color;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+}
+
+a {
+    color: $teal;
+    background: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200vh;;
+    > section {
+        width: 60%;
+        margin: 2rem 0;
+    }
+}
+
+li {
+    list-style-type: none;
+}
