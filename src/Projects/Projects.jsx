@@ -1,40 +1,22 @@
 import React from 'react'
-import { useState } from 'react'
+import projectsData from './projects.json'
 import '../styles/projects.scss'
-import TabContent from './TabContent';
+import ProjectCard from './ProjectCard'
 
 function Projects() {
-    const [ selectedTab, setSelectedTab ] = useState('tech-tab');
-    const menu = [
-        {id: 'tech-tab', name: 'Tech', header: 'Header 1', content: [
-            'point 1', 'point 2', 'point 3'
-        ]},
-        {id: 'impact-tab', name: 'Social Impact', header: 'Header 2', content: [
-            'point 1', 'point 2', 'point 3'
-        ]},
-        {id: 'marketing-events-tab', name: 'Events and Marketing', header: 'Header 3', content: ['']}
-    ]
     return (
-    <section id="projects-section">
-        <h2>Projects</h2>
-        <div>
-            <ul id="tabs-menu">
+        <section id="projects-section">
+            <h2>Projects</h2>
+            <div id="projects-list">
             {
-                menu.map((tab) => (
-                    <li id={tab.id} key={tab.id} className={selectedTab == tab.id ? 'selected' : ''} onClick={() => setSelectedTab(tab.id)}>{tab.name}</li>
-                ))
-            }   
-            </ul>
-            {
-                menu.map((tab) => (
-                    tab.id == selectedTab ?
-                    <TabContent key={tab.id} tab={tab} />
-                    : ''
+                projectsData.map((project) => (
+                    <ProjectCard key={project.id} project={project} />
                 ))
             }
-        </div>
-    </section>
+            </div>
+        </section>
   )
 }
 
 export default Projects
+
