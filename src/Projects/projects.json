@@ -1,25 +1,37 @@
 [
     {
-        "id": 1,
-        "name": "minishell",
-        "description": "a bash clone, can parse and execute commands",
-        "tools": ["C"]
-    },
-    {
-        "id": 2,
+        "id": "bb-uae",
         "name": "Best Buddies UAE",
         "description": "website for the Best Buddies UAE NGO",
         "tools": ["React", "HTML", "CSS", "PHP", "SQL"]
     },
     {
-        "id": 3,
+        "id": "portfolio",
+        "name": "Portfolio",
+        "description": "a bash clone, can parse and execute commands",
+        "tools": ["React", "HTML", "SASS"]
+    },
+    {
+        "id": "minishell",
+        "name": "minishell",
+        "description": "a bash clone, can parse and execute commands",
+        "tools": ["C"]
+    },
+    {
+        "id": "capstone",
         "name": "Vision Perception Analysis",
         "description": "machine learning project to analyze vision perception centers in the brain",
         "tools": ["MATLAB"]
     },
     {
-        "id": 4,
+        "id": "fdf",
         "name": "Wireframe Render",
+        "description": "convert 2D array of heights to interactive 3D map",
+        "tools": ["C"]
+    },
+    {
+        "id": "minitalk",
+        "name": "Signal Processing",
         "description": "convert 2D array of heights to interactive 3D map",
         "tools": ["C"]
     }
