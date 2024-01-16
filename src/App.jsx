@@ -7,12 +7,13 @@ import About from './About'
 import Experience from './Experience/Experience'
 import Navbar from './Navbar'
 import Projects from './Projects/Projects'
-
+import WIP from './WIP'
 
 
 function App() {
   return (
     <body>
+        <WIP />
         <Navbar />
         <Banner />
         <main>
