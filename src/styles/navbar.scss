@@ -38,13 +38,10 @@ nav {
                 text-decoration: none;
                 background: none;
                 color: $teal;
-                transition: color $transition;
-                transition: font-size $transition;
+                transition: color $transition, font-size $transition;
                 
                 &:hover {
                     color: $dull-green;
-                    // font-size: 2rem;
-                    // padding: 0rem .75rem;
                 }
             }
         }

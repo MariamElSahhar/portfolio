@@ -27,6 +27,11 @@
             background-position: center;
             background-repeat: repeat;
             position: relative;
+            transition: background-size $transition;
+
+            &:hover {
+                background-size: 35%;
+            }
 
             * {
                 background: none;

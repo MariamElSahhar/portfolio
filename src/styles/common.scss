@@ -35,10 +35,10 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 300vh;;
+    // height: 300vh;;
     > section {
         width: 60%;
-        margin: 2rem 0;
+        margin: 5rem 0;
     }
 }
 
@@ -57,12 +57,19 @@ button {
     height: 100vh;
     overflow-y: scroll;
     scroll-snap-type: y mandatory;
+    scroll-padding-top: 100px;
 }
 
 .scroll-section {
     // height: 100vh;
     scroll-snap-align: start;
-    &:not(#banner) {
-        padding-top: 100px;
-    }
+    // &:not(#banner) {
+    //     padding-top: 100px;
+    // }
+}
+
+
+h2 {
+    width: 100%;
+    text-align: center;
 }
