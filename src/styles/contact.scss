@@ -1,0 +1,70 @@
+@import "common";
+
+#contact-section {
+    button {
+        background-color: $teal;
+        color: $background;
+        width: 100%;
+        cursor: pointer;
+        border-radius: $border-radius;
+        transition: background-color $transition;
+
+        &:hover {
+            background-color: $dull-green;
+        }
+    }
+    .form-wrapper {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        font-weight: 300;
+
+        form {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+
+            label {
+                display: flex;
+                flex-direction: column;
+            }
+
+            label, button {
+                margin-top: 15px;
+            }
+
+            input, textarea {
+                width: 100%;
+                background-color: $light-pink;
+                border: none;
+                outline: none;
+                border-radius: $border-radius;
+                box-sizing: border-box;
+                resize: none;
+                padding: 0.5rem;
+            }
+
+            textarea {
+                height: 10rem;
+            }
+
+            button {
+                padding: .5rem;
+            }
+        }
+    }
+    .message-sent {
+        margin: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        button {
+            margin-top: 10px;
+            padding: .25rem;
+            width: 70%;
+        }
+    }
+    
+}
