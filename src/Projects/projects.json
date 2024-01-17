@@ -3,36 +3,57 @@
         "id": "bb-uae",
         "name": "Best Buddies UAE",
         "description": "website for the Best Buddies UAE NGO",
-        "tools": ["React", "HTML", "CSS", "PHP", "SQL"]
+        "tools": ["React", "HTML", "CSS", "PHP", "SQL"],
+        "image": "/BBUAE-inverted.png",
+        "link": "https://bestbuddies.ae/",
+        "repo": "https://github.com/MariamElSahhar/bestbuddies-ae"
     },
     {
         "id": "portfolio",
         "name": "Portfolio",
         "description": "a bash clone, can parse and execute commands",
-        "tools": ["React", "HTML", "SASS"]
+        "tools": ["React", "HTML", "SASS"],
+        "image": "favicon.png",
+        "repo": "https://github.com/MariamElSahhar/portfolio"
     },
     {
         "id": "minishell",
         "name": "minishell",
         "description": "a bash clone, can parse and execute commands",
-        "tools": ["C"]
+        "tools": ["C"],
+        "image": "",
+        "repo": "https://github.com/MariamElSahhar/Minishell"
     },
     {
         "id": "capstone",
         "name": "Vision Perception Analysis",
         "description": "machine learning project to analyze vision perception centers in the brain",
-        "tools": ["MATLAB"]
+        "tools": ["MATLAB"],
+        "image": "",
+        "repo": "https://github.com/RokersLab/decoding-capstone"
     },
     {
         "id": "fdf",
         "name": "Wireframe Render",
         "description": "convert 2D array of heights to interactive 3D map",
-        "tools": ["C"]
+        "tools": ["C"],
+        "image": "",
+        "repo": "https://github.com/MariamElSahhar/Wireframe-Renderer"
     },
     {
         "id": "minitalk",
         "name": "Signal Processing",
         "description": "convert 2D array of heights to interactive 3D map",
-        "tools": ["C"]
+        "tools": ["C"],
+        "image": "",
+        "repo": "https://github.com/MariamElSahhar/Signal-Processing"
+    },
+    {
+        "id": "philosophers",
+        "name": "Dining Philosophers",
+        "description": "convert 2D array of heights to interactive 3D map",
+        "tools": ["C"],
+        "image": "",
+        "repo": "https://github.com/MariamElSahhar/philosophers"
     }
 ]

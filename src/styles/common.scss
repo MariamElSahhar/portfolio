@@ -45,3 +45,21 @@ main {
 li {
     list-style-type: none;
 }
+
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: inherit;
+}
+
+#root {
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+
+.scroll-section {
+    // height: 100vh;
+    scroll-snap-align: start;
+}

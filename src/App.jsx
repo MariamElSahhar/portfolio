@@ -12,7 +12,7 @@ import WIP from './WIP'
 
 function App() {
   return (
-    <body>
+    <>
         <WIP />
         <Navbar />
         <Banner />
@@ -22,7 +22,7 @@ function App() {
           <Projects />
         </main>
         <Footer />
-    </body>  
+    </>  
   )
 }
 

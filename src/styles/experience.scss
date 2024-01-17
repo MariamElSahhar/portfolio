@@ -18,15 +18,15 @@ $tab-shadow: 8px 0 12px rgba(0, 0, 255, 0.2);
             justify-content: center;
             align-items: center;
             cursor: pointer;
-            &#tech-tab {
+            &#tech {
                 &:hover { background-color: $light-sky;}
                 &.selected { background-color: $sky; }
             }
-            &#impact-tab {
+            &#impact {
                 &:hover { background-color: $light-matcha;}
                 &.selected { background-color: $matcha; }
             }
-            &#marketing-events-tab {
+            &#marketing-events {
                 &:hover { background-color: $light-sun;}
                 &.selected { background-color: $sun; }
             }
@@ -38,13 +38,13 @@ $tab-shadow: 8px 0 12px rgba(0, 0, 255, 0.2);
         * {
             background-color: inherit;
         }
-        &.tech-tab {
+        &#tech {
             background-color: $sky;
         }
-        &.impact-tab {
+        &#impact {
             background-color: $matcha;
         }
-        &.marketing-events-tab {
+        &#marketing-events {
             background-color: $sun;
         }
     }

@@ -4,7 +4,7 @@ import Photo from './Photo'
 
 function Banner() {
   return (
-    <header id='banner'>
+    <header id='banner' className='scroll-section'>
       <div id="banner-top">
         <Photo/>
       </div>

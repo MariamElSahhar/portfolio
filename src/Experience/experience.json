@@ -1,0 +1,60 @@
+[
+    {
+        "id": "tech",
+        "name": "Tech",
+        "positions": [
+            {
+                "name": "Joe Lewis Company",
+                "date":"2-October-2023 - Present",
+                "position": "Marketing and Communications Executive",
+                "location": "Abu Dhabi, UAE",
+                "bullets": [
+                    "point 1",
+                    "point 2"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "impact",
+        "name": "Social Impact",
+        "positions": [
+            {
+                "name": "Joe Lewis Company",
+                "date":"2-October-2023 - Present",
+                "position": "Marketing and Communications Executive",
+                "location": "Abu Dhabi, UAE",
+                "bullets": [
+                    "point 1",
+                    "point 2"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "marketing-events",
+        "name": "Marketing and Events",
+        "positions": [
+            {
+                "name": "Plug and Play Abu Dhabi",
+                "date":"September 2023",
+                "position": "PR and Communications Associate",
+                "location": "Abu Dhabi, UAE",
+                "bullets": [
+                    "point 1",
+                    "point 2"
+                ]
+            },
+            {
+                "name": "Plug and Play Abu Dhabi",
+                "date":"November 2022 - October 2023",
+                "position": "Marketing and Operations Intern",
+                "location": "Abu Dhabi, UAE",
+                "bullets": [
+                    "point 1",
+                    "point 2"
+                ]
+            }
+        ]
+    }
+]

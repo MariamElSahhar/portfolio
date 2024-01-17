@@ -12,6 +12,7 @@ nav {
         justify-content: flex-end;
         align-items: center;
         margin-right: 8rem;
+       
         li {
             display: flex;
             height: 100%;
@@ -21,26 +22,29 @@ nav {
             font-size: 1.75rem;
             background: none;
             border-radius: $border-radius;
+            transition: padding $transition;
+
             &:hover {
                 cursor: pointer;
             }
+           
             svg, a {
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 text-align: center;
                 padding: 1rem 0.5rem;
-                font-weight: 400;
+                font-weight: 500;
                 text-decoration: none;
                 background: none;
                 color: $teal;
                 transition: color $transition;
                 transition: font-size $transition;
-                transition: padding $transition;
+                
                 &:hover {
                     color: $dull-green;
                     // font-size: 2rem;
-                    // padding: 0.5rem .25rem
+                    // padding: 0rem .75rem;
                 }
             }
         }

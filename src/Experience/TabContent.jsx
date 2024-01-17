@@ -1,14 +1,18 @@
-function TabContent({ tab }) {
+function TabContent({ group }) {
   return (
-    <div key="tab-id" className={'tab-content ' + tab.id}>
-        <h3>{tab.header}</h3>
-        <ul>
-            {
-                tab.content.map((bullet) => (
-                    <li key={bullet}>{bullet}</li>
-                ))
-            }
-        </ul>
+    <div key={group.id} className='tab-content' id={group.id}>
+      {
+        group.positions.map((position) => (
+          <div key={position.name}>
+            <h3>{position.name}</h3>
+            <ul>
+              {position.bullets.map((bullet) => (
+                <li key={bullet}>{bullet}</li>
+              ))}
+            </ul>
+          </div>
+        ))
+      }
     </div>
   )
 }
