@@ -2,6 +2,35 @@
 
 footer {
     background-color: $teal;
-    height: 10vh;
+    height: 12vh;
     margin-top: 5rem;
+    color: $background;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    *, a, h3, p {
+        color: $background;
+        background: none;
+        text-decoration: none;
+        font-family: $font-family;
+        font-weight: 200;
+    }
+    a, p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+            height: 1rem;
+            width: auto;
+            margin-right: 5px;
+        }
+    }
+    .links {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        
+    }
 }
