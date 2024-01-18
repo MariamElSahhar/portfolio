@@ -10,8 +10,8 @@ function Footer() {
   return (
     <footer>
         <h3>Mariam ElSahhar</h3>
-        <p><img src="/location.png"/>Abu Dhabi, UAE</p>
-        <a href='mailto:mariam.elsahhar@nyu.edu'><img src="/envelope.png"/>mariam.elsahhar@nyu.edu</a>
+        <p><img src="/icons/location.png"/>Abu Dhabi, UAE</p>
+        <a href='mailto:mariam.elsahhar@nyu.edu'><img src="/icons/envelope.png"/>mariam.elsahhar@nyu.edu</a>
         <div className="links">
           <a href="https://github.com/MariamElSahhar"><FontAwesomeIcon icon={faGithub} /></a>
           <a href="https://www.linkedin.com/in/mariam-elsahhar/"><FontAwesomeIcon icon={faLinkedin} /></a>

@@ -4,8 +4,8 @@
         "name": "Best Buddies UAE",
         "description": "website for the Best Buddies UAE NGO",
         "tools": ["React", "HTML", "CSS", "PHP", "SQL"],
-        "image": "/BBUAE-inverted.png",
-        "repeat": "no-repeat",
+        "image": "/projects/BBUAE-inverted.png",
+        "repeat": "repeat",
         "link": "https://bestbuddies.ae/",
         "repo": "https://github.com/MariamElSahhar/bestbuddies-ae"
     },
@@ -14,8 +14,9 @@
         "name": "Portfolio",
         "description": "a bash clone, can parse and execute commands",
         "tools": ["React", "HTML", "SASS"],
-        "image": "favicon.png",
+        "image": "projects/MariamElSahhar_Portrait_nobckg.png",
         "repeat": "no-repeat",
+        "link": "#",
         "repo": "https://github.com/MariamElSahhar/portfolio"
     },
     {
@@ -23,8 +24,8 @@
         "name": "minishell",
         "description": "a bash clone, can parse and execute commands",
         "tools": ["C"],
-        "image": "shell.png",
-        "repeat": "no-repeat",
+        "image": "projects/shell2.png",
+        "repeat": "repeat",
         "repo": "https://github.com/MariamElSahhar/Minishell"
     },
     {
@@ -32,8 +33,8 @@
         "name": "Vision Perception Analysis",
         "description": "machine learning project to analyze vision perception centers in the brain",
         "tools": ["MATLAB"],
-        "image": "brain.png",
-        "repeat": "no-repeat",
+        "image": "projects/brain.png",
+        "repeat": "repeat",
         "repo": "https://github.com/RokersLab/decoding-capstone"
     },
     {
@@ -41,7 +42,7 @@
         "name": "Wireframe Render",
         "description": "convert 2D array of heights to interactive 3D map",
         "tools": ["C"],
-        "image": "fdf.png",
+        "image": "projects/fdf3.png",
         "repeat": "repeat",
         "repo": "https://github.com/MariamElSahhar/Wireframe-Renderer"
     },
@@ -50,7 +51,7 @@
         "name": "Signal Processing",
         "description": "convert 2D array of heights to interactive 3D map",
         "tools": ["C"],
-        "image": "",
+        "image": "/projects",
         "repeat": "no-repeat",
         "repo": "https://github.com/MariamElSahhar/Signal-Processing"
     },
@@ -59,7 +60,7 @@
         "name": "Dining Philosophers",
         "description": "convert 2D array of heights to interactive 3D map",
         "tools": ["C"],
-        "image": "spaghetti.png",
+        "image": "/projects/spaghetti.png",
         "repeat": "no-repeat",
         "repo": "https://github.com/MariamElSahhar/philosophers"
     }
