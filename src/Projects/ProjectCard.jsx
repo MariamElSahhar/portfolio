@@ -7,6 +7,7 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons'
 function ProjectCard({ project }) {
     const cardStyle = {
         backgroundImage: `url(${project.image})`,
+        backgroundRepeat: `${project.repeat}`,
     }
 
     return (

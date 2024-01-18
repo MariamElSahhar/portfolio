@@ -8,8 +8,8 @@ function Experience() {
     const [ selectedTab, setSelectedTab ] = useState('tech');
 
     return (
-        <section id="experience-section">
-            <h2>Experience</h2>
+        <section id="experience-section" className='scroll-section'>
+            <h2>Experience 💼</h2>
             <div>
             <ul id="tabs-menu">
             {

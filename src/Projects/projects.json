@@ -5,6 +5,7 @@
         "description": "website for the Best Buddies UAE NGO",
         "tools": ["React", "HTML", "CSS", "PHP", "SQL"],
         "image": "/BBUAE-inverted.png",
+        "repeat": "no-repeat",
         "link": "https://bestbuddies.ae/",
         "repo": "https://github.com/MariamElSahhar/bestbuddies-ae"
     },
@@ -14,6 +15,7 @@
         "description": "a bash clone, can parse and execute commands",
         "tools": ["React", "HTML", "SASS"],
         "image": "favicon.png",
+        "repeat": "no-repeat",
         "repo": "https://github.com/MariamElSahhar/portfolio"
     },
     {
@@ -21,7 +23,8 @@
         "name": "minishell",
         "description": "a bash clone, can parse and execute commands",
         "tools": ["C"],
-        "image": "",
+        "image": "shell.png",
+        "repeat": "no-repeat",
         "repo": "https://github.com/MariamElSahhar/Minishell"
     },
     {
@@ -29,7 +32,8 @@
         "name": "Vision Perception Analysis",
         "description": "machine learning project to analyze vision perception centers in the brain",
         "tools": ["MATLAB"],
-        "image": "",
+        "image": "brain.png",
+        "repeat": "no-repeat",
         "repo": "https://github.com/RokersLab/decoding-capstone"
     },
     {
@@ -37,7 +41,8 @@
         "name": "Wireframe Render",
         "description": "convert 2D array of heights to interactive 3D map",
         "tools": ["C"],
-        "image": "",
+        "image": "fdf.png",
+        "repeat": "repeat",
         "repo": "https://github.com/MariamElSahhar/Wireframe-Renderer"
     },
     {
@@ -46,6 +51,7 @@
         "description": "convert 2D array of heights to interactive 3D map",
         "tools": ["C"],
         "image": "",
+        "repeat": "no-repeat",
         "repo": "https://github.com/MariamElSahhar/Signal-Processing"
     },
     {
@@ -53,7 +59,8 @@
         "name": "Dining Philosophers",
         "description": "convert 2D array of heights to interactive 3D map",
         "tools": ["C"],
-        "image": "",
+        "image": "spaghetti.png",
+        "repeat": "no-repeat",
         "repo": "https://github.com/MariamElSahhar/philosophers"
     }
 ]

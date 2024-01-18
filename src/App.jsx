@@ -8,6 +8,7 @@ import Experience from './Experience/Experience'
 import Navbar from './Navbar'
 import Projects from './Projects/Projects'
 import WIP from './WIP'
+import Contact from './Contact'
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <About />
           <Experience />
           <Projects />
+          <Contact />
         </main>
         <Footer />
     </>  

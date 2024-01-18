@@ -6,7 +6,7 @@ import ProjectCard from './ProjectCard'
 function Projects() {
     return (
         <section id="projects-section" className='scroll-section'>
-            <h2>Projects</h2>
+            <h2>Projects 👾</h2>
             <div id="projects-list">
             {
                 projectsData.map((project) => (
