@@ -1,18 +1,26 @@
+@import 'common.scss';
+
 #WIP {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 10px;
-    position: sticky;
-    top: 0;
-    z-index: 5;
-    // width: 100%;
-    h1 {
-      margin: 0 auto;
-    }
-    button {
-      padding: 20px;
-    }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  transition: margin-top 0.5s ease, transform 0.5s ease;
+  height: 10vh;
+
+  h1 {
+    margin: 0 auto;
   }
-  
-  
+
+  button {
+    padding: 20px;
+  }
+
+  &.hidden {
+    margin-top: -10vh;
+    transform: translateY(-100%);
+  }
+}
