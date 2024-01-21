@@ -1,5 +1,8 @@
 import React from 'react'
 import './styles/contact.scss'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPaperPlane } from '@fortawesome/free-solid-svg-icons'
+
 
 function Contact() {
     const [result, setResult] = React.useState("");
@@ -25,7 +28,7 @@ function Contact() {
 
   return (
     <section id="contact-section" className='scroll-section'>
-        <h2>Contact Me 👋🏼</h2>
+        <h2>Drop a Message <FontAwesomeIcon icon={faPaperPlane} /></h2>
         <div className='form-wrapper'>
         {
             result == "" ?

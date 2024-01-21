@@ -7,7 +7,15 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
+        height: 24rem;
+        transition: height $transition;
+        overflow: hidden;
         
+        &.showingmore {
+            transition: height $transition;
+            // height: 40rem;
+        }
+
         .project-card {
             color: $font-color;
             font-weight: 300;
@@ -20,7 +28,6 @@
             width: 45%;
             height: 10rem;
             border-radius: $border-radius;
-            // background-color: $light-pink;
             margin: .5rem auto;
             padding: .5rem;
             background-size: 30%;
@@ -28,8 +35,8 @@
             position: relative;
             transition: background-size $transition;
 
-            &:hover {
-                background-size: 35%;
+            h3 {
+                transition: font $transition;
             }
 
             * {
@@ -52,16 +59,62 @@
             .links {
                 display: flex;
                 flex-direction: row;
-                color: $teal;
                 a {
+                    color: $dull-green;
                     transition: color $transition;
                     padding: .25rem;
                     cursor: pointer;
                     &:hover {
-                        color: $dull-green;
+                        color: $background;
                     }
                 }
             }
+
+            .stack {
+                height: 1.5rem;  
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                text-align: center;
+                align-items: center;
+                width: 40%;
+                justify-content: space-around;
+
+                .lang-label {
+                    display: none;
+                }
+
+                .lang-icon {
+                    color: $teal;
+                    background: none;
+                    height: 100%;
+                    width: auto;
+                    transition: color $transition;
+
+                    >svg, >img, >i {
+                        text-decoration: none;
+                        font-style: normal;
+                        height: 100%;
+                        width: auto;
+                        font-style: normal;
+                    }
+                }
+            }
+             
+            &:hover {
+                background-size: 35%;
+                h3 {
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+    #show-more {
+        display: flex;
+        justify-content: flex-end;
+        p {
+            padding: 1rem 1rem 3rem;
+            cursor: pointer;
         }
     }
 }

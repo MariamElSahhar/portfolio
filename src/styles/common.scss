@@ -64,6 +64,7 @@ button {
 .scroll-section {
     // height: 100vh;
     scroll-snap-align: start;
+    overflow-y: scroll;
     // &:not(#banner) {
     //     padding-top: 100px;
     // }

@@ -2,8 +2,8 @@
     {
         "id": "bb-uae",
         "name": "Best Buddies UAE",
-        "description": "website for the Best Buddies UAE NGO",
-        "tools": ["React", "HTML", "CSS", "PHP", "SQL"],
+        "description": "website for an NGO, dedicated to people of determination",
+        "stack": ["HTML", "CSS", "React", "PHP", "SQL"],
         "image": "/projects/BBUAE-inverted.png",
         "repeat": "repeat",
         "link": "https://bestbuddies.ae/",
@@ -12,8 +12,8 @@
     {
         "id": "portfolio",
         "name": "Portfolio",
-        "description": "a bash clone, can parse and execute commands",
-        "tools": ["React", "HTML", "SASS"],
+        "description": "yours truly",
+        "stack": ["HTML", "SASS", "React"],
         "image": "projects/MariamElSahhar_Portrait_nobckg.png",
         "repeat": "no-repeat",
         "link": "#",
@@ -23,7 +23,7 @@
         "id": "minishell",
         "name": "minishell",
         "description": "a bash clone, can parse and execute commands",
-        "tools": ["C"],
+        "stack": ["C"],
         "image": "projects/shell2.png",
         "repeat": "repeat",
         "repo": "https://github.com/MariamElSahhar/Minishell"
@@ -32,7 +32,7 @@
         "id": "capstone",
         "name": "Vision Perception Analysis",
         "description": "machine learning project to analyze vision perception centers in the brain",
-        "tools": ["MATLAB"],
+        "stack": ["MATLAB", "Python"],
         "image": "projects/brain.png",
         "repeat": "repeat",
         "repo": "https://github.com/RokersLab/decoding-capstone"
@@ -41,27 +41,47 @@
         "id": "fdf",
         "name": "Wireframe Render",
         "description": "convert 2D array of heights to interactive 3D map",
-        "tools": ["C"],
+        "stack": ["C"],
         "image": "projects/fdf3.png",
         "repeat": "repeat",
         "repo": "https://github.com/MariamElSahhar/Wireframe-Renderer"
     },
     {
+        "id": "philosophers",
+        "name": "Dining Philosophers",
+        "description": "solution to resource management and synchornization using mutexes and threads",
+        "stack": ["C"],
+        "image": "/projects/spaghetti.png",
+        "repeat": "no-repeat",
+        "repo": "https://github.com/MariamElSahhar/philosophers"
+    },
+    {
         "id": "minitalk",
         "name": "Signal Processing",
-        "description": "convert 2D array of heights to interactive 3D map",
-        "tools": ["C"],
-        "image": "/projects",
+        "description": "client and server inter-process communication",
+        "stack": ["C"],
+        "image": "",
         "repeat": "no-repeat",
         "repo": "https://github.com/MariamElSahhar/Signal-Processing"
     },
     {
-        "id": "philosophers",
-        "name": "Dining Philosophers",
-        "description": "convert 2D array of heights to interactive 3D map",
-        "tools": ["C"],
-        "image": "/projects/spaghetti.png",
+        "id": "weSTEM",
+        "name": "weSTEM Website",
+        "description": "maintainance for the NYUAD Women in STEM website",
+        "stack": ["HTML", "CSS", "Bootstrap"],
+        "image": "",
+        "link": "https://westem-nyuad.github.io/web/",
         "repeat": "no-repeat",
-        "repo": "https://github.com/MariamElSahhar/philosophers"
+        "repo": "https://github.com/WeSTEM-NYUAD/website2018"
+    },
+    {
+        "id": "iGEM",
+        "name": "NYUAD iGEM 2019",
+        "description": "product design for disease diagnostics device",
+        "stack": ["HTML", "CSS", "laser", "illustrator"],
+        "image": "",
+        "repeat": "no-repeat",
+        "repo": "",
+        "link": "https://2019.igem.org/Team:NYU_Abu_Dhabi"
     }
 ]

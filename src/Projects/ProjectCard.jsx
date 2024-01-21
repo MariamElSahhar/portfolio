@@ -1,7 +1,8 @@
 import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faArrowUpRightFromSquare} from '@fortawesome/free-solid-svg-icons'
-import { faGithub } from '@fortawesome/free-brands-svg-icons'
+
+import Logo from './Logo'
+import ProjectLink from './ProjectLink'
+
 
 
 function ProjectCard({ project }) {
@@ -11,19 +12,15 @@ function ProjectCard({ project }) {
     }
 
     return (
-        <div style={cardStyle} className='project-card'>
+        <div style={cardStyle} className='project-card' onClick={ () => (project.repo ? window.open(project.repo, '_blank') : window.open(project.link, '_blank') ) }>
+            <ProjectLink project={project} />
             <h3>{project.name}</h3>
             <p>{project.description}</p>
-            <div className="links">
-                {
-                    project.link ?
-                    <a href={project.link}><FontAwesomeIcon icon={faArrowUpRightFromSquare} /></a>
-                    : ''
-                }
-                {
-                    project.repo ?
-                    <a href={project.repo}><FontAwesomeIcon icon={faGithub} /></a>
-                    : ''
+            <div className="stack">
+            {
+                project.stack.map(lang => (
+                    <Logo key={lang} lang={lang} />
+                    ))
                 }
             </div>
         </div>

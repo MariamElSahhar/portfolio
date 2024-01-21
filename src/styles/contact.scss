@@ -1,6 +1,14 @@
 @import "common";
 
 #contact-section {
+    svg {
+        color: $teal;
+        transition: color $transition;
+
+        &:hover {
+            color: $dull-green;
+        }
+    }
     button {
         background-color: $teal;
         color: $background;
