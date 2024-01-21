@@ -3,7 +3,7 @@
         "id": "bb-uae",
         "name": "Best Buddies UAE",
         "description": "website for an NGO, dedicated to people of determination",
-        "stack": ["HTML", "CSS", "React", "PHP", "SQL"],
+        "stack": ["HTML", "CSS", "React", "PHP", "SQL", "WordPress"],
         "image": "/projects/BBUAE-inverted.png",
         "repeat": "repeat",
         "link": "https://bestbuddies.ae/",
@@ -13,7 +13,7 @@
         "id": "portfolio",
         "name": "Portfolio",
         "description": "yours truly",
-        "stack": ["HTML", "SASS", "React"],
+        "stack": ["Figma", "HTML", "SASS", "React"],
         "image": "projects/MariamElSahhar_Portrait_nobckg.png",
         "repeat": "no-repeat",
         "link": "#",
@@ -33,8 +33,8 @@
         "name": "Vision Perception Analysis",
         "description": "machine learning project to analyze vision perception centers in the brain",
         "stack": ["MATLAB", "Python"],
-        "image": "projects/brain.png",
-        "repeat": "repeat",
+        "image": "projects/mri.png",
+        "repeat": "no-repeat",
         "repo": "https://github.com/RokersLab/decoding-capstone"
     },
     {
@@ -60,7 +60,7 @@
         "name": "Signal Processing",
         "description": "client and server inter-process communication",
         "stack": ["C"],
-        "image": "",
+        "image": "/projects/ipc.png",
         "repeat": "no-repeat",
         "repo": "https://github.com/MariamElSahhar/Signal-Processing"
     },
@@ -69,7 +69,7 @@
         "name": "weSTEM Website",
         "description": "maintainance for the NYUAD Women in STEM website",
         "stack": ["HTML", "CSS", "Bootstrap"],
-        "image": "",
+        "image": "/projects/westem.png",
         "link": "https://westem-nyuad.github.io/web/",
         "repeat": "no-repeat",
         "repo": "https://github.com/WeSTEM-NYUAD/website2018"
@@ -79,7 +79,7 @@
         "name": "NYUAD iGEM 2019",
         "description": "product design for disease diagnostics device",
         "stack": ["HTML", "CSS", "laser", "illustrator"],
-        "image": "",
+        "image": "/projects/igem.png",
         "repeat": "no-repeat",
         "repo": "",
         "link": "https://2019.igem.org/Team:NYU_Abu_Dhabi"

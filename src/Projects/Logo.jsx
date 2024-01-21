@@ -1,7 +1,7 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-import { faHtml5, faCss3Alt, faSass, faReact, faPhp, faJava, faJs, faPython, faBootstrap } from '@fortawesome/free-brands-svg-icons';
+import { faHtml5, faCss3Alt, faSass, faReact, faPhp, faJava, faJs, faPython, faBootstrap, faWordpress, faFigma} from '@fortawesome/free-brands-svg-icons';
 import { faDatabase } from '@fortawesome/free-solid-svg-icons'
 
 function Logo({ lang }) {
@@ -19,6 +19,8 @@ function Logo({ lang }) {
         {lang: "Python", icon: faPython, text: ""},
         {lang: "MATLAB", icon: null, text: "", img: '/logos/MATLAB.png'},
         {lang: "Bootstrap", icon: faBootstrap, text: ""},
+        {lang: "WordPress", icon: faWordpress, text: ""},
+        {lang: "Figma", icon: faFigma, text: ""},
         {lang: "laser", icon: null, text: "", img: '/logos/laser.png'},
         {lang: "illustrator", icon: null, text: "", img: '/logos/illustrator.png'},
     ];
