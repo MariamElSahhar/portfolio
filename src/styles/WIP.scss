@@ -4,6 +4,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  text-align: center;
   padding: 0 10px;
   position: sticky;
   top: 0;
@@ -22,5 +23,28 @@
   &.hidden {
     margin-top: -10vh;
     transform: translateY(-100%);
+  }
+
+
+  @media (max-width: $xxs-max-width) {
+    
+    height: 10vh;
+    text-align: left;
+
+    &.hidden {
+      margin-top: -10vh;
+    }
+
+    h1 {
+      font-size: 1rem;
+      >span {
+        display: none;
+      }
+    }
+
+    button {
+      padding: 20px 20px 20px 0;
+    }
+
   }
 }

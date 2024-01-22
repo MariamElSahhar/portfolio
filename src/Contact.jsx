@@ -47,12 +47,12 @@ function Contact() {
                 </label>
                 <button type="submit">Send</button>
             </form>
-            : result == "Success" ?
+            : result === "Success" ?
             <div className='message-sent'>
                 <h3>Thanks for your message! I'll get back to you soon</h3> 
                 <button onClick={() => setResult("")}>Send another</button>
             </div>
-            : result == "Error" ?
+            : result === "Error" ?
             <div className='message-sent'>
                 <h3>Hmm.. Something went wrong. Try again later!</h3>
                 <button onClick={() => setResult("")}>Try again</button>

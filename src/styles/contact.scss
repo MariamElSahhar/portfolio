@@ -1,6 +1,7 @@
 @import "common";
 
 #contact-section {
+
     svg {
         color: $teal;
         transition: color $transition;
@@ -9,6 +10,7 @@
             color: $dull-green;
         }
     }
+
     button {
         background-color: $teal;
         color: $background;
@@ -21,6 +23,7 @@
             background-color: $dull-green;
         }
     }
+
     .form-wrapper {
         display: flex;
         justify-content: center;
@@ -60,8 +63,14 @@
             button {
                 padding: .5rem;
             }
+
+
+            @media (max-width: $xs-max-width) {
+                width: 80%;
+            }
         }
     }
+
     .message-sent {
         margin: 15px;
         display: flex;
@@ -69,11 +78,11 @@
         justify-content: center;
         text-align: center;
         align-items: center;
+
         button {
             margin-top: 10px;
             padding: .25rem;
             width: 70%;
         }
     }
-    
 }

@@ -10,10 +10,11 @@
         height: 24rem;
         transition: height $transition;
         overflow: hidden;
-        
+
+
+
         &.showingmore {
             transition: height $transition;
-            // height: 40rem;
         }
 
         .project-card {
@@ -108,13 +109,34 @@
                 }
             }
         }
+
+
+        @media (max-width: $xxs-max-width) {
+            flex-direction: column;
+            flex-wrap: nowrap;
+            .project-card {
+                width: 70%;
+                padding: 1rem;
+                
+                h3 {
+                    font-weight: 300;
+                }
+                .stack,.links {
+                    margin: .5rem;
+                }
+            }
+        }
     }
+
     #show-more {
         display: flex;
         justify-content: flex-end;
         p {
             padding: 1rem 1rem 3rem;
             cursor: pointer;
+        }
+        @media (max-width: $xxs-max-width) {
+            justify-content: center;
         }
     }
 }

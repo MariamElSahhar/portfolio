@@ -46,4 +46,13 @@ nav {
             }
         }
     }
+
+    @media (max-width: $s-max-width) {
+        position: relative;
+        background-color: $light-pink;
+        ul {
+            justify-content: center;
+            width: 100%;
+        }
+    }
 }

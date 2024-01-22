@@ -3,7 +3,7 @@ import './styles/about.scss'
 
 function About() {
   return (
-    <section id="about-section">
+    <section id="about-section" className='scroll-section'>
       <div className="about-section-content">
         <h2>About Me</h2>
         <p>🎓 I graduated from NYU in 2022 with a bachelor's of science and a love for projects involving sustainability, mental and physical wellbeing, education, and diversity and inclusion.</p>

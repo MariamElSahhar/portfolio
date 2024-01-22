@@ -9,7 +9,11 @@ import { faAngleDown, faAngleUp } from '@fortawesome/free-solid-svg-icons'
 function Projects() {
     const [showmore, setShowmore] = useState(false);
     // const projectsDataShown = (showmore ? projectsData : projectsData.slice(0, 4))
-    const sectionHeight = { height: `${Math.ceil(projectsData.length/ 2) * 12}rem`,};
+    const sectionHeight = 
+    window.innerWidth < 426 ?
+    {height: `${projectsData.length * 13}rem`,}
+    : {height: `${Math.ceil(projectsData.length/ 2) * 12}rem`,};
+    
     return (
         <section id="projects-section" className='scroll-section'>
             <h2>Projects 👾</h2>

@@ -15,6 +15,19 @@ $border-radius: 5px;
 $transition: 0.3s ease;
 $font-family: "Montserrat", sans-serif;
 
+$xxs-max-width: 425px;
+
+$xs-min-width: 426px;
+$xs-max-width: 576px;
+
+$s-min-width: 577px;
+$s-max-width: 768px;
+
+$m-min-width: 769px;
+$m-max-width: 992px;
+
+$l-min-width: 1200px;
+
 * {
     margin: 0;
     padding: 0;
@@ -62,14 +75,26 @@ button {
 }
 
 .scroll-section {
-    // height: 100vh;
     scroll-snap-align: start;
     overflow-y: scroll;
-    // &:not(#banner) {
-    //     padding-top: 100px;
-    // }
 }
 
+@media (max-width: $s-max-width) {
+    #banner {
+        scroll-snap-align: none;
+    }
+    nav {
+        scroll-snap-align: start;
+    }
+    main > section {
+        width: 80%;
+    }
+}
+
+
+footer {
+    scroll-snap-align: end;
+}
 
 h2 {
     width: 100%;

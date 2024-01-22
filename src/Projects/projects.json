@@ -42,7 +42,7 @@
         "name": "Wireframe Render",
         "description": "convert 2D array of heights to interactive 3D map",
         "stack": ["C"],
-        "image": "projects/fdf3.png",
+        "image": "projects/fdf.png",
         "repeat": "repeat",
         "repo": "https://github.com/MariamElSahhar/Wireframe-Renderer"
     },
