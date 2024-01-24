@@ -38,6 +38,15 @@
             label {
                 display: flex;
                 flex-direction: column;
+
+                .input-label {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    .error-message {
+                        color: $teal;
+                    }
+                }
             }
 
             label, button {
