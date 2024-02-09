@@ -10,8 +10,8 @@ function Banner() {
       </div>
       <div id="banner-bottom">
         <h2>Hiii I'm Mariam ✨</h2>
-        <h1>Front-end developer</h1>
-        <h3>I create web apps for social impact projects 🌱</h3>
+        <h1>Software Developer</h1>
+        <h3>Coding for social impact 🌱</h3>
       </div>
     </header>
   )
